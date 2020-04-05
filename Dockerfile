@@ -5,4 +5,4 @@ WORKDIR "/go/src/github.com/photoprism/photoprism"
 COPY . .
 
 RUN make all
-CMD photoprism --public start
+#CMD photoprism start
