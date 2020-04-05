@@ -6,4 +6,4 @@ COPY . .
 
 RUN make all
 
-CMD ["/photoprism start"]
+CMD ["./photoprism start"]
