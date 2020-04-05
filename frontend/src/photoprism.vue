@@ -23,19 +23,17 @@
     import "./css/app.css";
     import imgUrl from '../../assets/weixinok.png';
 
-    export default {
-        name: 'imgUrl',
-        data () {
-            return {
-                imgUrl: imgUrl,
-            };
-        }
 
-    };
+
 
     export default {
         name: 'photoprism',
         computed: {},
         methods: {},
+        data () {
+            return {
+                imgUrl: imgUrl,
+            };
+        }
     };
 </script>
