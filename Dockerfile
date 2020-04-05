@@ -6,4 +6,4 @@ COPY . .
 
 RUN make all
 
-CM ['./photoprism start']
+entrypoint ["./photoprism start"]
