@@ -1,0 +1,46 @@
+version: '3.5'
+
+services:
+  photoprism:
+    build: .
+    image: photoprism/photoprism:develop
+    depends_on:
+      - photoprism-db
+    ports:
+      - "80:2342" # Web Server (PhotoPrism)
+      - "4000:4000" # Database (MySQL compatible)
+    volumes:
+      - ".:/go/src/github.com/photoprism/photoprism"
+    shm_size: "2gb"
+    environment:
+      PHOTOPRISM_DEBUG: "true"
+      PHOTOPRISM_SERVER_MODE: "debug"
+      PHOTOPRISM_ASSETS_PATH: "/go/src/github.com/photoprism/photoprism/assets"
+      PHOTOPRISM_CACHE_PATH: "/go/src/github.com/photoprism/photoprism/assets/cache"
+      PHOTOPRISM_RESOURCES_PATH: "/go/src/github.com/photoprism/photoprism/assets/resources"
+      PHOTOPRISM_CONFIG_PATH: "/go/src/github.com/photoprism/photoprism/assets/config"
+      PHOTOPRISM_IMPORT_PATH: "/go/src/github.com/photoprism/photoprism/assets/photos/import"
+      PHOTOPRISM_EXPORT_PATH: "/go/src/github.com/photoprism/photoprism/assets/photos/export"
+      PHOTOPRISM_ORIGINALS_PATH: "/go/src/github.com/photoprism/photoprism/assets/photos/originals"
+      PHOTOPRISM_DATABASE_DRIVER: "internal"
+      PHOTOPRISM_DATABASE_DSN: "root:photoprism@tcp(localhost:4000)/photoprism?parseTime=true"
+      PHOTOPRISM_HTTP_HOST: "0.0.0.0"
+      PHOTOPRISM_HTTP_PORT: 2342
+      PHOTOPRISM_SQL_HOST: "0.0.0.0"
+      PHOTOPRISM_SQL_PORT: 4000
+      PHOTOPRISM_SQL_PASSWORD: "photoprism"
+      PHOTOPRISM_UPLOAD_NSFW: "true"
+      TF_CPP_MIN_LOG_LEVEL: 0
+
+  photoprism-db:
+    image: mariadb:10.4.8
+    command: mysqld --port=4001 --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --max-connections=1024
+    expose:
+      - "4001"
+    ports:
+      - "4001:4001" # MySQL (for tests)
+    environment:
+      MYSQL_ROOT_PASSWORD: photoprism
+      MYSQL_USER: photoprism
+      MYSQL_PASSWORD: photoprism
+      MYSQL_DATABASE: photoprism

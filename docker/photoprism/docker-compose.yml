@@ -1,0 +1,25 @@
+version: '3.3'
+
+# Example docker-compose config file for production use
+# Container image on Docker Hub: https://hub.docker.com/r/photoprism/photoprism/
+# To keep photoprism running, add "restart: always"
+#
+# Usage: docker-compose up
+
+services:
+  photoprism:
+    image: photoprism/photoprism:latest
+    ports:
+      - 2342:2342 # [local port]:[container port]
+    volumes:
+      - "~/Pictures/Originals:/home/photoprism/Pictures/Originals" # [local path]:[container path]
+      - "~/Pictures/Import:/home/photoprism/Pictures/Import" # [local path]:[container path] (optional)
+      - "~/Pictures/Export:/home/photoprism/Pictures/Export" # [local path]:[container path] (optional)
+      - "photoprism-cache:/home/photoprism/.cache/photoprism" # keep thumbnail cache
+      - "photoprism-database:/home/photoprism/.local/share/photoprism/resources/database" # keep database files
+
+volumes: # keep this
+  photoprism-cache:
+    driver: local
+  photoprism-database:
+    driver: local

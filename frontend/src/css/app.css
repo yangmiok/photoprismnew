@@ -1,0 +1,107 @@
+@import url("../../node_modules/material-design-icons-iconfont/dist/material-design-icons.css");
+@import url("../../node_modules/vuetify/dist/vuetify.min.css");
+@import url("../../node_modules/leaflet/dist/leaflet.css");
+@import url("maps.css");
+@import url("viewer.css");
+@import url("photos.css");
+@import url("labels.css");
+
+body {
+    background: rgb(250, 250, 250);
+    color: #333333;
+    font-family: Roboto, sans-serif;;
+}
+
+footer {
+    clear: both;
+    padding: 1rem 2rem;
+}
+
+main {
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+#p-busy-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#p-navigation {
+    z-index: 10;
+}
+
+#photoprism div.loading {
+    text-align: center;
+    margin: 50px 20px;
+}
+
+#photoprism main a {
+    color: #00B8D4;
+}
+
+#photoprism main a.v-tabs__item {
+    color: #546E7A;
+}
+
+#photoprism main a.v-tabs__item--active {
+    color: #455A64;
+}
+
+#photoprism .v-badge__badge {
+    font-size: 12px;
+    height: 19px;
+    width: 19px;
+    right: -20px;
+    top: -8px;
+}
+
+#photoprism .p-pointer {
+    cursor: pointer;
+}
+
+#photoprism .p-logs {
+    color: white;
+}
+
+#photoprism .p-log-message {
+    display: block;
+    text-align: left;
+    font-size: 1em;
+    font-family: monospace;
+    white-space: normal;
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+    margin: 0;
+}
+
+#photoprism .p-log-message span {
+    color: #FEFEFE;
+    font-weight: normal;
+}
+
+#photoprism .p-log-fatal,
+#photoprism .p-log-critical,
+#photoprism .p-log-error {
+    color: #F48FB1;
+}
+
+#photoprism .p-log-fatal {
+    color: #FFECB3;
+}
+
+#photoprism .p-log-info {
+    color: #82B1FF;
+}
+
+#photoprism .p-log-debug {
+    color: #EEEEEE;
+}

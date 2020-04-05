@@ -1,0 +1,3520 @@
+cat:
+  label: tabby cat
+  priority: 5
+  categories:
+    - cat
+    - animal
+    - kitty
+    - mammal
+
+tabby cat:
+  see: cat
+
+persian cat:
+  see: cat
+
+siamese cat:
+  see: cat
+
+egyptian cat:
+  see: cat
+
+tiger cat:
+  label: tiger cat
+  priority: 5
+  categories:
+    - cat
+    - tiger
+    - stripes
+    - animal
+    - kitty
+
+wild cat:
+  priority: 5
+  categories:
+    - cat
+    - animal
+    - mammal
+    - predator
+    - wild
+    - wildlife
+    - dangerous
+
+lynx:
+  see: wild cat
+
+leopard:
+  see: wild cat
+
+snow leopard:
+  see: wild cat
+
+jaguar:
+  see: wild cat
+
+lion:
+  see: wild cat
+
+cheetah:
+  see: wild cat
+
+tiger:
+  see: wild cat
+
+analog clock:
+  priority: 2
+  categories:
+    - chronograph
+
+racer:
+  label: race car
+  priority: 1
+
+seashore:
+  priority: 2
+  categories:
+    - beach
+    - waterfront
+    - coast
+    - water
+
+lakeside:
+  priority: 2
+  categories:
+    - water
+    - waterfront
+
+cardoon:
+  label: flower
+
+window:
+  see: window shade
+
+window shade:
+  label: house front
+  categories:
+    - window
+    - house
+    - building
+    - architecture
+
+daisy:
+  label: flower
+  categories:
+    - nature
+    - plant
+
+rapeseed:
+  label: yellow flowers
+  categories:
+    - nature
+    - plant
+    - flower
+    - yellow
+    - rapeseed
+    - buttercup
+
+stole:
+  threshold: 0.2
+  priority: -1
+
+quilt:
+  threshold: 0.2
+  priority: -1
+
+liner:
+  label: ocean liner
+  categories:
+    - ship
+    - boat
+
+solar dish:
+  threshold: 0.5
+
+grasshopper:
+  priority: 1
+  categories:
+    - animal
+    - insect
+
+velvet:
+  label: leaf
+  categories:
+    - nature
+    - plant
+
+hair slide:
+  label: jewelry
+  threshold: 0.4
+
+shower curtain:
+  label: bathroom
+  threshold: 0.15
+
+windsor tie:
+  priority: -1
+
+chainlink fence:
+  label: fence
+  priority: -1
+
+mitten:
+  label: unknown
+
+bubble:
+  label: bubbles
+
+tench fish:
+  categories:
+    - water
+    - fish
+    - animal
+
+goldfish:
+  categories:
+    - water
+    - fish
+    - animal
+
+great white shark:
+  categories:
+    - water
+    - fish
+    - animal
+    - shark
+
+tiger shark:
+  categories:
+    - water
+    - fish
+    - animal
+    - shark
+
+hammerhead:
+  categories:
+    - water
+    - fish
+    - animal
+    - shark
+
+electric ray:
+  categories:
+    - water
+    - fish
+    - animal
+    - ray
+
+stingray:
+  categories:
+    - water
+    - sea
+    - fish
+    - animal
+    - ray
+
+cock:
+  categories:
+    - bird
+    - animal
+
+hen:
+  categories:
+    - bird
+    - animal
+    - chicken
+
+ostrich:
+  categories:
+    - bird
+    - animal
+
+brambling bird:
+  categories:
+    - bird
+    - animal
+
+goldfinch bird:
+  categories:
+    - bird
+    - animal
+
+house finch bird:
+  categories:
+    - bird
+    - animal
+
+junco bird:
+  categories:
+    - bird
+    - animal
+
+indigo bunting bird:
+  categories:
+    - bird
+    - animal
+
+robin bird:
+  categories:
+    - bird
+    - animal
+
+bulbul bird:
+  categories:
+    - bird
+    - animal
+
+jay bird:
+  categories:
+    - bird
+    - animal
+
+magpie bird:
+  categories:
+    - bird
+    - animal
+
+chickadee bird:
+  categories:
+    - bird
+    - animal
+
+water ouzel bird:
+  categories:
+    - bird
+    - animal
+
+kite bird:
+  categories:
+    - bird
+    - animal
+
+bald eagle bird:
+  categories:
+    - bird
+    - animal
+
+vulture bird:
+  categories:
+    - bird
+    - animal
+
+great grey owl bird:
+  categories:
+    - bird
+    - animal
+
+european fire salamander:
+  categories:
+    - amphibians
+    - animal
+    - salamander
+
+common newt salamander:
+  categories:
+    - amphibians
+    - animal
+    - salamander
+
+spotted salamander:
+  categories:
+    - amphibians
+    - animal
+    - salamander
+
+eft:
+  categories:
+    - amphibians
+    - animal
+    - salamander
+
+axolotl:
+  categories:
+    - amphibians
+    - animal
+
+bullfrog:
+  categories:
+    - amphibians
+    - animal
+    - frog
+
+tree frog:
+  categories:
+    - amphibians
+    - animal
+    - frog
+
+tailed frog:
+  categories:
+    - amphibians
+    - animal
+    - frog
+
+loggerhead:
+  categories:
+    - reptile
+    - animal
+    - turtle
+
+leatherback turtle:
+  categories:
+    - reptile
+    - animal
+    - turtle
+
+mud turtle:
+  categories:
+    - reptile
+    - animal
+    - turtle
+
+terrapin:
+  categories:
+    - reptile
+    - animal
+    - turtle
+
+box turtle:
+  categories:
+    - reptile
+    - animal
+    - turtle
+
+banded gecko:
+  label: animal
+
+common iguana:
+  categories:
+    - reptile
+    - animal
+
+american chameleon:
+  categories:
+    - reptile
+    - animal
+    - chameleon
+
+whiptail:
+  categories:
+    - reptile
+    - animal
+
+agama:
+  categories:
+    - reptile
+    - animal
+
+frilled lizard:
+  categories:
+    - reptile
+    - animal
+    - lizard
+
+alligator lizard:
+  categories:
+    - reptile
+    - animal
+    - lizard
+
+gila monster lizard:
+  categories:
+    - reptile
+    - animal
+    - lizard
+
+green lizard:
+  categories:
+    - reptile
+    - animal
+    - lizard
+
+african chameleon:
+  label: chameleon
+  categories:
+    - reptile
+    - animal
+    - chameleon
+
+komodo dragon:
+  categories:
+    - reptile
+    - animal
+
+african crocodile:
+  label: crocodile
+  categories:
+    - reptile
+    - animal
+    - crocodile
+    - alligator
+
+american alligator:
+  label: alligator
+  categories:
+    - reptile
+    - animal
+    - crocodile
+    - alligator
+
+triceratops:
+  categories:
+    - reptile
+    - animal
+
+thunder snake:
+  categories:
+    - reptile
+    - animal
+    - snake
+
+ringneck snake:
+  categories:
+    - reptile
+    - animal
+    - snake
+
+hognose snake:
+  categories:
+    - reptile
+    - animal
+    - snake
+
+green snake:
+  categories:
+    - reptile
+    - animal
+    - snake
+
+king snake:
+  categories:
+    - reptile
+    - animal
+    - snake
+
+garter snake:
+  categories:
+    - reptile
+    - animal
+    - snake
+
+water snake:
+  categories:
+    - reptile
+    - animal
+    - snake
+
+vine snake:
+  categories:
+    - reptile
+    - animal
+    - snake
+
+night snake:
+  categories:
+    - reptile
+    - animal
+    - snake
+
+boa constrictor snake:
+  categories:
+    - reptile
+    - animal
+    - snake
+
+rock python snake:
+  categories:
+    - reptile
+    - animal
+    - snake
+
+Indian cobra snake:
+  categories:
+    - reptile
+    - animal
+    - snake
+
+green mamba snake:
+  categories:
+    - reptile
+    - animal
+    - snake
+
+sea snake:
+  categories:
+    - reptile
+    - animal
+    - snake
+
+horned viper snake:
+  label: reptile
+  categories:
+    - animal
+    - snake
+
+diamondback snake:
+  categories:
+    - reptile
+    - animal
+    - snake
+
+sidewinder snake:
+  categories:
+    - reptile
+    - animal
+    - snake
+
+trilobite:
+  categories:
+    - animal
+
+harvestman:
+  categories:
+    - animal
+    - spider
+    - insect
+
+scorpion:
+  categories:
+    - animal
+    - spider
+    - insect
+
+black and gold garden spider:
+  categories:
+    - animal
+    - spider
+    - insect
+
+barn spider:
+  categories:
+    - animal
+    - spider
+    - insect
+
+garden spider:
+  categories:
+    - animal
+    - spider
+    - insect
+
+black widow:
+  categories:
+    - animal
+    - spider
+    - insect
+
+tarantula:
+  categories:
+    - animal
+    - spider
+    - insect
+
+wolf spider:
+  categories:
+    - animal
+    - spider
+    - insect
+
+centipede:
+  categories:
+    - animal
+    - insect
+
+black grouse:
+  categories:
+    - animal
+    - bird
+    - chicken
+
+ptarmigan:
+  categories:
+    - animal
+    - bird
+    - chicken
+
+ruffed grouse:
+  categories:
+    - animal
+    - bird
+    - chicken
+
+prairie chicken:
+  categories:
+    - animal
+    - bird
+    - chicken
+
+peacock:
+  categories:
+    - animal
+    - bird
+
+quail:
+  categories:
+    - animal
+    - bird
+
+partridge:
+  categories:
+    - animal
+    - bird
+    - chicken
+
+African grey:
+  categories:
+    - animal
+    - bird
+    - parrot
+
+macaw:
+  categories:
+    - animal
+    - bird
+    - parrot
+
+sulphur-crested cockatoo:
+  categories:
+    - animal
+    - bird
+    - parrot
+
+lorikeet:
+  categories:
+    - animal
+    - bird
+    - parrot
+
+coucal:
+  categories:
+    - animal
+    - bird
+
+bee eater:
+  categories:
+    - animal
+    - bird
+
+hornbill:
+  categories:
+    - animal
+    - bird
+
+hummingbird:
+  categories:
+    - animal
+    - bird
+
+jacamar:
+  categories:
+    - animal
+    - bird
+
+toucan:
+  categories:
+    - animal
+    - bird
+
+drake:
+  categories:
+    - animal
+    - bird
+    - duck
+
+red-breasted merganser:
+  categories:
+    - animal
+    - duck
+
+goose:
+  categories:
+    - animal
+    - bird
+
+black swan:
+  categories:
+    - animal
+    - bird
+
+tusker:
+  categories:
+    - animal
+    - elephant
+
+echidna:
+  categories:
+    - animal
+
+platypus:
+  categories:
+    - animal
+
+wallaby:
+  categories:
+    - animal
+
+koala:
+  categories:
+    - animal
+
+wombat:
+  categories:
+    - animal
+
+jellyfish:
+  categories:
+    - water
+    - sea
+    - animal
+    - fish
+
+sea anemone:
+  categories:
+    - animal
+    - coral
+
+brain coral:
+  categories:
+    - animal
+    - coral
+
+coral reef:
+  threshold: 0.6
+  categories:
+    - ocean
+    - water
+
+flatworm:
+  categories:
+    - animal
+
+nematode:
+  categories:
+    - animal
+
+conch:
+  categories:
+    - animal
+
+snail:
+  categories:
+    - animal
+    - slug
+
+slug:
+  categories:
+    - animal
+
+sea slug:
+  categories:
+    - animal
+    - slug
+
+chambered nautilus:
+  categories:
+    - animal
+    - slug
+
+dungeness crab:
+  categories:
+    - animal
+    - crab
+
+rock crab:
+  categories:
+    - animal
+    - crab
+
+fiddler crab:
+  categories:
+    - animal
+    - crab
+
+king crab:
+  categories:
+    - animal
+    - crab
+
+american lobster:
+  categories:
+    - animal
+    - crab
+
+spiny lobster:
+  categories:
+    - animal
+    - crab
+
+crayfish:
+  categories:
+    - water
+    - animal
+    - crab
+
+hermit crab:
+  categories:
+    - animal
+    - crab
+
+isopod:
+  categories:
+    - animal
+    - insect
+
+white stork:
+  categories:
+    - animal
+    - bird
+    - storck
+
+black stork:
+  categories:
+    - animal
+    - bird
+    - storck
+
+spoonbill:
+  categories:
+    - animal
+    - bird
+
+flamingo:
+  categories:
+    - animal
+    - bird
+
+little blue heron:
+  categories:
+    - animal
+    - bird
+
+american egret:
+  categories:
+    - animal
+    - bird
+
+bittern:
+  categories:
+    - animal
+    - bird
+
+crane:
+  categories:
+    - animal
+    - bird
+
+limpkin:
+  categories:
+    - animal
+    - bird
+
+European gallinule:
+  categories:
+    - animal
+    - bird
+
+American coot:
+  categories:
+    - animal
+    - bird
+
+bustard:
+  categories:
+    - animal
+    - bird
+
+ruddy turnstone:
+  categories:
+    - animal
+    - bird
+
+red-backed sandpiper:
+  categories:
+    - animal
+    - bird
+
+redshank:
+  categories:
+    - animal
+    - bird
+
+dowitcher:
+  categories:
+    - animal
+    - bird
+
+oystercatcher:
+  categories:
+    - animal
+    - bird
+
+pelican:
+  categories:
+    - animal
+    - bird
+
+king penguin:
+  categories:
+    - animal
+    - bird
+    - penguin
+
+albatross:
+  categories:
+    - animal
+    - bird
+
+grey whale:
+  categories:
+    - animal
+    - whale
+    - mammal
+
+killer whale:
+  categories:
+    - animal
+    - whale
+    - mammal
+
+dugong:
+  categories:
+    - animal
+
+sea lion:
+  categories:
+    - animal
+
+dog:
+  priority: 5
+  categories:
+    - animal
+    - dog
+    - mammal
+
+chihuahua dog:
+  see: dog
+
+japanese spaniel dog:
+  see: dog
+
+maltese dog:
+  see: dog
+
+pekinese dog:
+  see: dog
+
+sShih-Tzu dog:
+  see: dog
+
+blenheim spaniel dog:
+  see: dog
+
+papillon dog:
+  see: dog
+
+toy terrier dog:
+  see: dog
+
+rhodesian ridgeback dog:
+  see: dog
+
+afghan hound dog:
+  see: dog
+
+basset dog:
+  see: dog
+
+beagle dog:
+  see: dog
+
+bloodhound dog:
+  see: dog
+
+bluetick dog:
+  see: dog
+
+black-and-tan coonhound dog:
+  see: dog
+
+walker hound dog:
+  see: dog
+
+english foxhound dog:
+  see: dog
+
+redbone dog:
+  see: dog
+
+borzoi dog:
+  see: dog
+
+irish wolfhound dog:
+  see: dog
+
+italian greyhound dog:
+  see: dog
+
+whippet dog:
+  see: dog
+
+ibizan hound dog:
+  see: dog
+
+norwegian elkhound dog:
+  see: dog
+
+otterhound dog:
+  see: dog
+
+saluki dog:
+  see: dog
+
+scottish deerhound dog:
+  see: dog
+
+weimaraner dog:
+  see: dog
+
+staffordshire bullterrier dog:
+  see: dog
+
+american Staffordshire terrier dog:
+  see: dog
+
+bedlington terrier dog:
+  see: dog
+
+border terrier dog:
+  see: dog
+
+kerry blue terrier dog:
+  see: dog
+
+irish terrier dog:
+  see: dog
+
+norfolk terrier dog:
+  see: dog
+
+nNorwich terrier dog:
+  see: dog
+
+yorkshire terrier dog:
+  see: dog
+
+wire-haired fox terrier dog:
+  see: dog
+
+lakeland terrier dog:
+  priority: 5
+  see: dog
+
+sealyham terrier dog:
+  see: dog
+
+airedale dog:
+  see: dog
+
+cairn dog:
+  see: dog
+
+australian terrier dog:
+  see: dog
+
+dandie Dinmont dog:
+  see: dog
+
+boston bull dog:
+  see: dog
+
+miniature schnauzer dog:
+  see: dog
+
+giant schnauzer dog:
+  see: dog
+
+standard schnauzer dog:
+  see: dog
+
+Scotch terrier dog:
+  see: dog
+
+tibetan terrier dog:
+  see: dog
+
+silky terrier dog:
+  see: dog
+
+soft-coated wheaten terrier dog:
+  see: dog
+
+west Highland white terrier dog:
+  see: dog
+
+lhasa dog:
+  see: dog
+
+flat-coated retriever dog:
+  see: dog
+
+curly-coated retriever dog:
+  see: dog
+
+golden retriever dog:
+  see: dog
+
+labrador retriever dog:
+  see: dog
+
+chesapeake Bay retriever dog:
+  see: dog
+
+german short-haired pointer dog:
+  see: dog
+
+vizsla dog:
+  see: dog
+
+english setter dog:
+  see: dog
+
+irish setter dog:
+  see: dog
+
+Gordon setter dog:
+  see: dog
+
+Brittany spaniel dog:
+  see: dog
+
+Clumber spaniel dog:
+  see: dog
+
+english springer dog:
+  see: dog
+
+welsh springer spaniel dog:
+  see: dog
+
+cocker spaniel dog:
+  see: dog
+
+sussex spaniel dog:
+  see: dog
+
+irish water spaniel dog:
+  see: dog
+
+kuvasz dog:
+  see: dog
+
+schipperke dog:
+  see: dog
+
+groenendael dog:
+  see: dog
+
+malinois dog:
+  see: dog
+
+briard dog:
+  see: dog
+
+kelpie dog:
+  see: dog
+
+komondor dog:
+  see: dog
+
+old English sheepdog:
+  see: dog
+
+shetland sheepdog:
+  see: dog
+
+collie dog:
+  see: dog
+
+border collie dog:
+  see: dog
+
+bouvier des Flandres dog:
+  see: dog
+
+rottweiler dog:
+  see: dog
+
+german shepherd dog:
+  see: dog
+
+doberman dog:
+  see: dog
+
+miniature pinscher dog:
+  see: dog
+
+greater Swiss Mountain dog:
+  see: dog
+
+bernese mountain dog:
+  see: dog
+
+appenzeller dog:
+  see: dog
+
+entleBucher dog:
+  see: dog
+
+boxer dog:
+  see: dog
+
+bull mastiff dog:
+  see: dog
+
+tibetan mastiff dog:
+  see: dog
+
+french bulldog dog:
+  see: dog
+
+great Dane dog:
+  see: dog
+
+saint Bernard dog:
+  see: dog
+
+eskimo dog:
+  see: dog
+
+malamute dog:
+  see: dog
+
+siberian husky dog:
+  see: dog
+
+dalmatian dog:
+  see: dog
+
+affenpinscher dog:
+  see: dog
+
+basenji dog:
+  see: dog
+
+pug dog:
+  see: dog
+
+leonberg dog:
+  see: dog
+
+newfoundland dog:
+  see: dog
+
+great Pyrenees dog:
+  see: dog
+
+samoyed dog:
+  see: dog
+
+pomeranian dog:
+  see: dog
+
+chow dog:
+  see: dog
+
+keeshond dog:
+  see: dog
+
+brabancon griffon dog:
+  see: dog
+
+pembroke dog:
+  see: dog
+
+cardigan dog:
+  see: dog
+
+toy poodle dog:
+  see: dog
+
+miniature poodle dog:
+  see: dog
+
+standard poodle dog:
+  see: dog
+
+mexican hairless dog:
+  see: dog
+
+timber wolf:
+  categories:
+    - wolf
+    - dog
+    - animal
+
+white wolf:
+  categories:
+    - wolf
+    - dog
+    - animal
+
+red wolf:
+  categories:
+    - wolf
+    - dog
+    - animal
+
+coyote:
+  see: dog
+
+dingo:
+  see: dog
+
+dhole:
+  see: dog
+
+African hunting dog:
+  see: dog
+
+hyena:
+  see: dog
+
+red fox:
+  categories:
+    - fox
+    - animal
+
+kit fox:
+  categories:
+    - fox
+    - animal
+
+Arctic fox:
+  categories:
+    - fox
+    - animal
+
+rgrey fox:
+  categories:
+    - fox
+    - animal
+
+brown bear:
+  categories:
+    - animal
+    - bear
+
+American black bear:
+  categories:
+    - animal
+    - bear
+
+ice bear:
+  categories:
+    - animal
+    - bear
+
+sloth bear:
+  categories:
+    - animal
+    - bear
+
+mongoose:
+  categories:
+    - animal
+
+meerkat:
+  categories:
+    - animal
+
+tiger beetle:
+  categories:
+    - animal
+    - beetle
+    - insect
+
+ladybug:
+  categories:
+    - animal
+    - beetle
+    - insect
+
+ground beetle:
+  categories:
+    - animal
+    - beetle
+    - insect
+
+long-horned beetle:
+  categories:
+    - animal
+    - beetle
+    - insect
+
+leaf beetle:
+  categories:
+    - animal
+    - beetle
+    - insect
+
+dung beetle:
+  categories:
+    - animal
+    - beetle
+    - insect
+
+rhinoceros beetle:
+  categories:
+    - animal
+    - beetle
+    - insect
+
+weevil:
+  categories:
+    - animal
+    - beetle
+    - insect
+
+fly:
+  categories:
+    - animal
+    - insect
+
+bee:
+  categories:
+    - animal
+    - insect
+
+ant:
+  categories:
+    - animal
+    - insect
+
+cricket:
+  categories:
+    - animal
+    - insect
+
+walking stick:
+  categories:
+    - animal
+    - insect
+
+cockroach:
+  categories:
+    - animal
+    - insect
+
+mantis:
+  categories:
+    - animal
+    - insect
+
+cicada:
+  categories:
+    - animal
+    - insect
+
+leafhopper:
+  categories:
+    - animal
+    - insect
+
+lacewing:
+  categories:
+    - animal
+    - insect
+
+dragonfly:
+  categories:
+    - animal
+    - insect
+
+damselfly:
+  categories:
+    - animal
+    - insect
+
+admiral:
+  categories:
+    - animal
+    - insect
+    - butterfly
+
+ringlet:
+  categories:
+    - animal
+    - insect
+    - butterfly
+
+monarch:
+  categories:
+    - animal
+    - insect
+    - butterfly
+
+cabbage butterfly:
+  categories:
+    - animal
+    - insect
+    - butterfly
+
+sulphur butterfly:
+  categories:
+    - animal
+    - insect
+    - butterfly
+
+lycaenid:
+  categories:
+    - animal
+    - insect
+    - butterfly
+
+starfish:
+  categories:
+    - water
+    - sea
+    - animal
+    - fish
+
+sea urchin:
+  categories:
+    - water
+    - sea
+    - animal
+
+sea cucumber:
+  categories:
+    - water
+    - sea
+    - animal
+
+wood rabbit:
+  categories:
+    - animal
+    - rodent
+    - rabbit
+
+hare:
+  categories:
+    - animal
+    - rodent
+    - rabbit
+
+Angora:
+  categories:
+    - animal
+    - rodent
+    - rabbit
+
+hamster:
+  categories:
+    - animal
+    - rodent
+
+porcupine:
+  categories:
+    - animal
+    - rodent
+
+fox squirrel:
+  categories:
+    - animal
+    - rodent
+
+marmot:
+  categories:
+    - animal
+    - rodent
+
+beaver:
+  categories:
+    - animal
+    - rodent
+
+guinea pig:
+  categories:
+    - animal
+    - rodent
+
+sorrel:
+  categories:
+    - animal
+
+zebra:
+  categories:
+    - animal
+
+hog:
+  categories:
+    - animal
+
+wild boar:
+  categories:
+    - animal
+
+warthog:
+  categories:
+    - animal
+
+hippopotamus:
+  categories:
+    - animal
+
+ox:
+  categories:
+    - animal
+
+water buffalo:
+  categories:
+    - animal
+
+bison:
+  categories:
+    - animal
+
+ram:
+  categories:
+    - animal
+
+bighorn:
+  categories:
+    - animal
+
+ibex:
+  categories:
+    - animal
+
+hartebeest:
+  categories:
+    - animal
+
+impala:
+  categories:
+    - animal
+
+gazelle:
+  categories:
+    - animal
+
+Arabian camel:
+  categories:
+    - animal
+
+llama:
+  categories:
+    - animal
+
+weasel:
+  categories:
+    - animal
+
+mink:
+  categories:
+    - animal
+
+polecat:
+  categories:
+    - animal
+
+black-footed ferret:
+  categories:
+    - animal
+
+otter:
+  categories:
+    - animal
+
+skunk:
+  categories:
+    - animal
+
+badger:
+  categories:
+    - animal
+
+armadillo:
+  categories:
+    - animal
+
+three-toed sloth:
+  categories:
+    - animal
+
+orangutan:
+  categories:
+    - animal
+    - monkey
+
+gorilla:
+  categories:
+    - animal
+    - monkey
+
+chimpanzee:
+  categories:
+    - animal
+    - monkey
+
+gibbon:
+  categories:
+    - animal
+    - monkey
+
+siamang:
+  categories:
+    - animal
+    - monkey
+
+guenon:
+  categories:
+    - animal
+    - monkey
+
+patas:
+  categories:
+    - animal
+    - monkey
+
+baboon:
+  categories:
+    - animal
+    - monkey
+
+macaque:
+  categories:
+    - animal
+    - monkey
+
+langur:
+  categories:
+    - animal
+    - monkey
+
+colobus:
+  categories:
+    - animal
+    - monkey
+
+proboscis monkey:
+  categories:
+    - animal
+    - monkey
+
+marmoset:
+  categories:
+    - animal
+    - monkey
+
+capuchin:
+  categories:
+    - animal
+    - monkey
+
+howler monkey:
+  categories:
+    - animal
+    - monkey
+
+titi:
+  categories:
+    - animal
+    - monkey
+
+spider monkey:
+  categories:
+    - animal
+    - monkey
+
+squirrel monkey:
+  categories:
+    - animal
+    - monkey
+
+fossa:
+  see: cat
+
+indri:
+  categories:
+    - animal
+    - monkey
+
+Indian elephant:
+  categories:
+    - animal
+    - elephant
+
+African elephant:
+  categories:
+    - animal
+    - elephant
+
+lesser panda:
+  categories:
+    - animal
+    - panda
+
+giant panda:
+  categories:
+    - animal
+    - panda
+
+barracouta:
+  categories:
+    - water
+    - sea
+    - animal
+    - fish
+
+jeel:
+  categories:
+    - water
+    - sea
+    - animal
+    - fish
+
+coho fish:
+  categories:
+    - water
+    - sea
+    - animal
+    - fish
+
+rock beauty fish:
+  categories:
+    - water
+    - sea
+    - animal
+    - fish
+
+anemone fish:
+  categories:
+    - water
+    - sea
+    - animal
+    - fish
+
+sturgeon fish:
+  categories:
+    - water
+    - sea
+    - animal
+    - fish
+
+gar fish:
+  categories:
+    - water
+    - sea
+    - animal
+    - fish
+
+lionfish:
+  categories:
+    - water
+    - sea
+    - animal
+    - fish
+
+puffer:
+  categories:
+    - water
+    - sea
+    - animal
+    - fish
+
+instrument:
+  categories:
+    - instrument
+    - music
+
+accordion:
+  see: instrument
+
+acoustic guitar:
+  see: instrument
+
+aircraft carrier:
+  categories:
+    - plain
+    - aircraft
+
+airliner:
+  categories:
+    - plain
+    - aircraft
+
+airship:
+  categories:
+    - plain
+    - aircraft
+
+ambulance:
+  categories:
+    - building
+    - medicin
+
+amphibian:
+  categories:
+    - animal
+
+assault rifle:
+  categories:
+    - weapon
+    - gun
+
+backpack:
+  categories:
+    - bag
+
+bakery:
+  categories:
+    - bread
+
+ballpoint:
+  categories:
+    - pen
+
+banjo:
+  see: instrument
+
+barbell:
+  categories:
+    - sports
+
+barber chair:
+  categories:
+    - chair
+    - barber
+    - hairdresser
+
+barbershop:
+  categories:
+    - chair
+    - barber
+    - hairdresser
+
+barn:
+  cateories:
+    - building
+
+bassoon:
+  see: instrument
+
+bathing cap:
+  categories:
+    - bathroom
+    - bathing
+
+bath towel:
+  categories:
+    - bathroom
+    - bathing
+    - towel
+
+bathtub:
+  categories:
+    - bathroom
+    - bathing
+
+beacon:
+  categories:
+    - buliding
+    - tower
+
+beer bottle:
+  categories:
+    - beer
+    - bottle
+    - drink
+    - alcohol
+
+beer glass:
+  categories:
+    - beer
+    - glass
+    - drink
+    - alcohol
+
+bell cote:
+  categories:
+    - bell
+    - ring
+
+bicycle-built-for-two:
+  categories:
+    - bicycle
+    - tandem
+    - sports
+
+bikini:
+  categories:
+    - swimming
+
+birdhouse:
+  categories:
+    - building
+    - house
+
+boathouse:
+  categories:
+    - building
+    - house
+
+bobsled:
+  categories:
+    - snow
+    - bob
+    - sports
+    - winter
+
+bookcase:
+  categories:
+    - furniture
+    - book
+
+bookshop:
+  categories:
+    - book
+
+breakwater:
+  categories:
+    - water
+    - see
+
+bullet train:
+  categories:
+    - train
+    - travel
+
+butcher shop:
+  categories:
+    - butcher
+    - meat
+
+cab:
+  categories:
+    - car
+    - travel
+
+cannon:
+  categories:
+    - weapon
+
+canoe:
+  categories:
+    - boat
+    - water
+    - sports
+
+can opener:
+  label: kitchen
+
+cardigan:
+  priority: -2
+
+car mirror:
+  label: car
+
+carpenter's kit:
+  categories:
+    - tool
+    - tool kit
+
+car wheel:
+  categories:
+    - car
+
+castle:
+  categories:
+    - building
+    - old
+    - architecture
+
+catamaran:
+  categories:
+    - boat
+
+cello:
+  see: instrument
+
+cellular telephone:
+  categories:
+    - mobile phone
+    - handy
+    - phone
+
+chain saw:
+  cateories:
+    - tool
+
+chiffonier:
+  categories:
+    - furniture
+    - cupboard
+
+chime:
+  see: instrument
+
+china cabinet:
+  categories:
+    - furniture
+    - cupboard
+
+church:
+  categories:
+    - building
+    - religion
+
+cleaver:
+  categories:
+    - knife
+    - kitchen
+
+cliff dwelling:
+  categories:
+    - landscape
+
+clog:
+  categories:
+    - shoe
+
+cocktail shaker:
+  categories:
+    - drink
+    - alcohol
+
+coffee mug:
+  categories:
+    - mug
+    - drink
+
+coffeepot:
+  categoried:
+    - coffee
+    - drink
+
+combination lock:
+  label: lock
+
+computer keyboard:
+  label: keyboard
+  categories:
+    - computer
+    - laptop
+
+confectionery:
+  categorie:
+    - sweets
+    - food
+
+container ship:
+  label: ship
+  categories:
+    - boat
+
+convertible:
+  label: car
+
+cornet:
+  see: instrument
+
+cradle:
+  categories:
+    - furniture
+
+crash helmet:
+  categories:
+    - construction side
+
+crock pot:
+  categories:
+    - kitchen
+    - pot
+    - cooking
+
+dam:
+  categories:
+    - water
+
+desk:
+  categories:
+    - furniture
+    - table
+
+desktop computer:
+  label: computer
+
+dial telephone:
+  label: phone
+
+digital clock:
+  label: clock
+
+digital watch:
+  label: watch
+
+dining table:
+  categories:
+    - funriture
+    - desk
+    - table
+
+maze:
+  label: landscape
+
+dishrag:
+  priority: -2
+  categories:
+    - towel
+
+dishwasher:
+  priority: -2
+
+disk brake:
+  label: car
+
+dock:
+  categories:
+    - water
+    - sea
+
+dogsled:
+  categories:
+    - snow
+    - sports
+    - winter
+
+dome:
+  categories:
+    - building
+
+drilling platform:
+  categories:
+    - building
+    - water
+    - sea
+
+drum:
+  see: instrument
+
+dumbbell:
+  categories:
+    - fitness
+    - sports
+
+dutch oven:
+  categories:
+    - kitchen
+    - cooking
+
+electric guitar:
+  see: instrument
+
+electric locomotive:
+  categories:
+    - train
+    - travel
+
+entertainment center:
+  label: television
+
+espresso maker:
+  categories:
+    - coffee
+    - espresso
+    - kitchen
+
+face powder:
+  categories:
+    - make-up
+
+fireboat:
+  categories:
+    - boat
+    - fire fighters
+
+fire engine:
+  categories:
+    - car
+    - fire fighters
+
+flagpole:
+  categories:
+    - flag
+
+flute:
+  see: instrument
+
+folding chair:
+  categories:
+    - furniture
+    - chair
+
+football helmet:
+  categories:
+    - fottball
+    - sports
+    - helmet
+
+forklift:
+  categories:
+    - construction side
+
+fountain:
+  categories:
+    - water
+
+fountain pen:
+  label: pen
+
+four-poster:
+  label: bed
+  categories:
+    - bedroom
+    - furniture
+
+freight car:
+  catgories:
+    - train
+
+french horn:
+  see: instrument
+
+frying pan:
+  label: pan
+  categories:
+    - kitchen
+    - cooking
+
+garbage truck:
+  label: truck
+
+go-kart:
+  categories:
+    - car
+
+golfcart:
+  categories:
+    - golf
+    - car
+
+gondola:
+  catgories:
+    - water
+    - boat
+
+gong:
+  see: instrument
+
+gown:
+  label: dress
+
+grand piano:
+  see: instrument
+
+greenhouse:
+  categories:
+    - plants
+    - gardening
+    - architecture
+    - building
+
+grocery store:
+  categories:
+    - store
+    - shopping
+
+hammer:
+  categories:
+    - tool
+
+hand-held computer:
+  label: laptop
+
+harmonica:
+  see: instrument
+
+harp:
+  see: instrument
+
+hatchet:
+  categories:
+    - tool
+
+home theater:
+  label: television
+
+honeycomb:
+  categories:
+    - honey
+    - bee
+
+jack-o'-lantern:
+  categories:
+    - halloween
+    - squash
+
+jeep:
+  categories:
+    - car
+
+jigsaw puzzle:
+  categories:
+    - game
+
+ladle:
+  categories:
+    - kitchen
+    - cooking
+
+lampshade:
+  categories:
+    - lamp
+    - light
+
+laptop:
+  categories:
+    - computer
+
+lawn mower:
+  categories:
+    - gardening
+
+lens cap:
+  categories:
+    - photography
+    - camera
+
+library:
+  categories:
+    - book
+
+lifeboat:
+  categories:
+    - water
+    - sea
+    - boat
+
+lighter:
+  categories:
+    - fire
+
+limousine:
+  categories:
+    - car
+
+lipstick:
+  categories:
+    - make-up
+
+loafer:
+  categories:
+    - shoes
+
+loudspeaker:
+  categories:
+    - speaker
+    - music
+
+magnetic compass:
+  categories:
+    - compass
+
+mailbag:
+  categories:
+    - bag
+
+maraca:
+  see: instrument
+
+marimba:
+  see: instrument
+
+matchstick:
+  categories:
+    - fire
+
+measuring cup:
+  categories:
+    - kitchen
+    - cooking
+
+medicine chest:
+  categories:
+    - furniture
+
+megalith:
+  categories:
+    - stone
+
+microphone:
+  categories:
+    - music
+    - singing
+
+microwave:
+  categories:
+    - kitchen
+    - cooking
+
+minibus:
+  categories:
+    - car
+
+minivan:
+  categories:
+    - car
+
+mixing bowl:
+  categories:
+    - kitchen
+    - cooking
+
+mobile home:
+  categories:
+    - house
+    - building
+
+Model T:
+  categories:
+    - car
+
+monastery:
+  categories:
+    - building
+
+monitor:
+  categories:
+    - computer
+
+mosque:
+  categories:
+    - building
+    - religion
+    - architecture
+
+mountain bike:
+  categories:
+    - bycicle
+    - sports
+
+mountain tent:
+  categories:
+    - tent
+    - camping
+    - travel
+
+moving van:
+  categories:
+    - car
+
+nail:
+  priority: -2
+
+neck brace:
+  priority: -2
+
+necklace:
+  priority: -2
+  categories:
+    - jewelery
+
+notebook:
+  categories:
+    - laptop
+    - computer
+
+obelisk:
+  categories:
+    - stone
+    - tower
+
+oboe:
+  see: instrument
+
+ocarina:
+  see: instrument
+
+odometer:
+  categories:
+    - car
+
+organ:
+  see: instrument
+
+oxcart:
+  categories:
+    - plane
+    - aircraft
+
+paddle:
+  categories:
+    - sport
+    - water
+    - sea
+
+paddlewheel:
+  categories:
+    - water
+    - sea
+
+padlock:
+  categories:
+    - lock
+
+paintbrush:
+  categories:
+    - drawing
+    - painting
+    - art
+
+palace:
+  categories:
+    - building
+    - architecture
+
+panpipe:
+  see: instrument
+
+paper towel:
+  categories:
+    - kitchen
+    - cleaning
+
+parachute:
+  categories:
+    - flying
+    - sports
+
+passenger car:
+  categories:
+    - car
+
+pay-phone:
+  categories:
+    - phone
+
+pencil sharpener:
+  categories:
+    - drawing
+
+petri dish:
+  categories:
+    - laboratory
+    - science
+    - research
+
+photocopier:
+  categories:
+    - office
+
+picket fence:
+  priority: -1
+  categories:
+    - fence
+
+pickup:
+  categories:
+    - car
+
+pier:
+  categories:
+    - water
+    - sea
+
+piggy bank:
+  categories:
+    - pig
+    - money
+
+pill bottle:
+  categories:
+    - pills
+    - medicine
+
+pillow:
+  categories:
+    - bedroom
+
+plane:
+  categories:
+    - travel
+    - aircraft
+
+plate rack:
+  categories:
+    - kitchen
+    - cleaning
+
+polaroid camera:
+  categories:
+    - photography
+    - camera
+
+police van:
+  categories:
+    - car
+    - police
+
+pool table:
+  categories:
+    - pool
+    - game
+
+pop bottle:
+  categories:
+    - bottle
+
+pot:
+  categories:
+    - kitchen
+    - cooking
+
+power drill:
+  categories:
+    - tool
+
+prayer rug:
+  categories:
+    - religion
+    - carpet
+
+printer:
+  categories:
+    - printer
+
+prison:
+  categories:
+    - building
+
+punching bag:
+  categories:
+    - boxing
+    - sports
+
+recreational vehicle:
+  categories:
+    - car
+
+reflex camera:
+  categories:
+    - camera
+    - photography
+
+refrigerator:
+  categories:
+    - kitchen
+
+restaurant:
+  categories:
+    - food
+
+revolver:
+  categories:
+    - weapon
+    - gun
+
+rifle:
+  categories:
+    - weapon
+    - gun
+
+rocking chair:
+  categories:
+    - chair
+    - furniture
+
+rotisserie:
+  categories:
+    - kitchen
+    - cooking
+
+rubber eraser:
+  categories:
+    - drawing
+
+running shoe:
+  categories:
+    - shoe
+
+saltshaker:
+  categories:
+    - kitchen
+    - cooking
+    - food
+
+sandal:
+  categories:
+    - shoe
+
+sax:
+  see: instrument
+
+school bus:
+  categories:
+    - car
+
+schooner:
+  categories:
+    - boat
+    - ship
+    - water
+    - sea
+
+screwdriver:
+  categories:
+    - tool
+
+shoe shop:
+  categories:
+    - shoe
+    - shopping
+
+shopping basket:
+  categories:
+    - basket
+    - shopping
+
+shopping cart:
+  categories:
+    - shopping
+
+shovel:
+  categories:
+    - tool
+    - gardening
+
+ski:
+  categories:
+    - winter
+    - snow
+    - sports
+
+sleeping bag:
+  categories:
+    - travel
+    - camping
+
+sliding door:
+  label: door
+
+snorkel:
+  categories:
+    - swimming
+    - water
+    - sea
+
+snowmobile:
+  categories:
+    - snow
+    - winter
+
+snowplow:
+  categories:
+    - snow
+    - winter
+    - car
+
+soap dispenser:
+  categories:
+    - soap
+    - cleaning
+
+sombrero:
+  categories:
+    - hat
+
+soup bowl:
+  categories:
+    - kitchen
+
+space heater:
+  label: heater
+
+spatula:
+  categories:
+    - kitchen
+    - cooking
+
+speedboat:
+  categories:
+    - water
+    - sea
+    - boat
+
+sports car:
+  categories:
+    - car
+
+spotlight:
+  categories:
+    - light
+
+steam locomotive:
+  categories:
+    - train
+    - travel
+
+steel arch bridge:
+  label: bridge
+
+steel drum:
+  see: instrument
+
+stove:
+  categories:
+    - kitchen
+    - cooking
+
+strainer:
+  categories:
+    - kitchen
+    - cooking
+
+streetcar:
+  categories:
+    - train
+    - travel
+
+studio couch:
+  label: couch
+  categories:
+    - furniture
+
+submarine:
+  categories:
+    - water
+    - sea
+    - boat
+
+suspension bridge:
+  categories:
+    - bridge
+
+swimming trunks:
+  categories:
+    - swimming
+
+table lamp:
+  categories:
+    - lamp
+    - light
+
+teapot:
+  categories:
+    - kitchen
+    - tea
+
+theater curtain:
+  label: curtain
+
+toaster:
+  categories:
+    - kitchen
+    - cooking
+
+toilet seat:
+  label: toilet
+
+torch:
+  categories:
+    - light
+    - lamp
+
+tow truck:
+  label: truck
+
+toyshop:
+  categories:
+    - shopping
+    - toys
+
+trailer truck:
+  label: truck
+
+trimaran:
+  categories:
+    - boat
+    - water
+    - sea
+
+triumphal arch:
+  categories:
+    - building
+    - arch
+
+trolleybus:
+  categories:
+    - bus
+
+trombone:
+  see: instrument
+
+tub:
+  categories:
+    - bathroom
+
+typewriter keyboard:
+  label: keyboard
+
+viaduct:
+  categories:
+    - building
+    - architecture
+
+violin:
+  see: instrument
+
+waffle iron:
+  categories:
+    - kitchen
+    - cooking
+
+wall clock:
+  label: clock
+
+wardrobe:
+  categories:
+    - furniture
+
+warplane:
+  categories:
+    - plane
+    - aircraft
+
+washbasin:
+  categories:
+    - bathroom
+
+water bottle:
+  categories:
+    - bottle
+
+water tower:
+  categories:
+    - tower
+
+wine bottle:
+  categories:
+    - bottle
+    - wine
+
+wok:
+  categories:
+    - kitchen
+    - cooking
+
+wooden spoon:
+  categories:
+    - kitchen
+    - cooking
+
+worm fence:
+  label: fence
+  priority: -1
+
+wreck:
+  categories:
+    - water
+    - sea
+    - ship
+
+yawl:
+  categories:
+    - ship
+    - boat
+    - water
+    - sea
+
+yurt:
+  categories:
+    - tent
+
+comic book:
+  categories:
+    - book
+
+book jacket:
+  label: book
+
+guacamole:
+  categories:
+    - avocado
+    - food
+
+consomme:
+  categories:
+    - soup
+    - food
+
+hot pot:
+  categories:
+    - soup
+    - food
+
+trifle:
+  categories:
+    - dessert
+    - food
+
+ice cream:
+  categories:
+    - dessert
+    - food
+
+ice lolly:
+  categories:
+    - desser
+    - food
+    - ice cream
+
+french loaf:
+  categories:
+    - food
+    - bread
+
+bagel:
+  categories:
+    - food
+    - bread
+
+pretzel:
+  categories:
+    - food
+    - bread
+
+cheeseburger:
+  categories:
+    - food
+    - burger
+
+hotdog:
+  categories:
+    - food
+
+mashed potato:
+  categories:
+    - potatoes
+    - food
+
+head cabbage:
+  categories:
+    - food
+    - vegetables
+
+broccoli:
+  categories:
+    - food
+    - vegetables
+
+cauliflower:
+  categories:
+    - food
+    - vegetables
+
+zucchini:
+  categories:
+    - food
+    - vegetable
+
+spaghetti squash:
+  categories:
+    - food
+    - vegetables
+    - squash
+
+acorn squash:
+  categories:
+    - food
+    - vegetables
+    - squash
+
+butternut squash:
+  categories:
+    - food
+    - vegetables
+    - squash
+
+cucumber:
+  categories:
+    - food
+    - vegetables
+
+artichoke:
+  categories:
+    - food
+    - vegetables
+
+bell pepper:
+  categories:
+    - food
+    - vegetables
+
+mushroom:
+  categories:
+    - food
+    - vegetables
+
+granny smith:
+  categories:
+    - food
+    - fruits
+    - apple
+
+strawberry:
+  categories:
+    - food
+    - fruits
+
+orange:
+  categories:
+    - food
+    - fruits
+
+lemon:
+  categories:
+    - food
+    - fruits
+
+fig:
+  categories:
+    - food
+    - fruits
+
+pineapple:
+  categories:
+    - food
+    - fruits
+
+banana:
+  categories:
+    - food
+    - fruits
+
+jackfruit:
+  categories:
+    - food
+    - fruits
+
+custard apple:
+  categories:
+    - food
+    - fruits
+
+pomegranate:
+  categories:
+    - food
+    - fruit
+
+carbonara:
+  categories:
+    - food
+    - noodles
+
+chocolate sauce:
+  categories:
+    - food
+    - dessert
+    - chocolate
+
+dough:
+  categories:
+    - food
+
+meat loaf:
+  categories:
+    - food
+    - meat
+
+pizza:
+  categories:
+    - food
+
+potpie:
+  categories:
+    - food
+    - pie
+
+burrito:
+  categories:
+    - food
+
+red wine:
+  categories:
+    - wine
+    - drink
+    - alcohol
+
+espresso:
+  categories:
+    - coffee
+    - drink
+
+eggnog:
+  categories:
+    - drink
+    - alcohol
+
+alp:
+  categories:
+    - landscape
+    - mountains
+
+cliff:
+  categories:
+    - landscape
+
+geyser:
+  categories:
+    - water
+
+promontory:
+  categories:
+    - landscape
+
+sandbar:
+  categories:
+    - sand
+
+valley:
+  categories:
+    - landscape
+    - nature
+
+yellow lady's slipper:
+  categories:
+    - shoe
+
+corn:
+  categories:
+    - food
+    - vegetable
+
+acorn:
+  categories:
+    - tree
+
+buckeye:
+  categories:
+    - tree
+
+coral fungus:
+  categories:
+    - coral
+
+agaric:
+  categories:
+    - fungus
+    - mushroom
+
+gyromitra:
+  categories:
+    - fungus
+    - mushroom
+
+stinkhorn:
+  categories:
+    - fungus
+    - mushroom
+
+earthstar:
+  categories:
+    - fungus
+    - mushroom
+
+hen-of-the-woods:
+  categories:
+    - fungus
+    - mushroom
+
+bolete:
+  categories:
+    - fungus
+    - mushroom
+
+knee pad:
+  priority: -2
+
+knot:
+  threshold: 0.6
+
+arabian camel:
+  label: camel
+  categories:
+    - animal
+
+tile roof:
+  label: house
+  categories:
+    - building
+    - architecture
+
+croquet ball:
+  label: pumpkin
+  categories:
+    - ball
+    - round
+    - sphere
+
+ball:
+  categories:
+    - ball
+    - round
+    - sphere
+    - sports
+
+baseball:
+  see: ball
+
+basketball:
+  see: ball
+
+golf ball:
+  see: ball
+
+ping-pong ball:
+  see: ball
+
+rugby ball:
+  see: ball
+
+soccer ball:
+  see: ball
+
+tennis ball:
+  see: ball
+
+volleyball:
+  see: ball
+
+spider web:
+  threshold: 0.6
+  priority: -1
+
+wool:
+  threshold: 0.5
+  priority: -1
+
+ear:
+  priority: -1
+
+sunglass:
+  label: sunglasses
+  priority: 2
+
+packet:
+  label: package
+  priority: 1
+
+swing:
+  label: Cosy
+  priority: 1
+  categories:
+    - outdoor
+    - furniture
+
+web site:
+  label: info
+  categories:
+    - sign
+    - screenshot

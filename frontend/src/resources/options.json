@@ -1,0 +1,38 @@
+{
+  "languages": [
+    {
+      "text": "English",
+      "value": "en"
+    },
+    {
+      "text": "German",
+      "value": "de"
+    }
+  ],
+  "themes": [
+    {
+      "text": "Default",
+      "value": "default"
+    },
+    {
+      "text": "Whale",
+      "value": "whale"
+    },
+    {
+      "text": "Raspberry",
+      "value": "raspberry"
+    },
+    {
+      "text": "Seaweed",
+      "value": "seaweed"
+    },
+    {
+      "text": "Lavender",
+      "value": "lavender"
+    },
+    {
+      "text": "Charcoal",
+      "value": "charcoal"
+    }
+  ]
+}
