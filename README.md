@@ -1,3 +1,12 @@
+* git clone https://github.com/zhangtianai/photoprismnew.git
+* docker-compose up 
+* docker-compose exec photoprism bash
+* make all
+* make test
+* ./photoprism start
+
+
+
 PhotoPrism: Browse your life in pictures
 ========================================
 

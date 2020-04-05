@@ -64,7 +64,7 @@ const router = new Router({
 });
 
 router.beforeEach((to, from, next) => {
-    if (to.path = '/index'){
+    if (to.path == '/index'){
         next();
     } else if (to.matched.some(record => record.meta.admin)) {
         if (isPublic || Session.isAdmin()) {
