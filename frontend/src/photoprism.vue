@@ -8,7 +8,7 @@
         <v-app>
             <p-navigation></p-navigation>
             <div style="text-align: center">
-            <img src="../assets/weixinok.png" width="200px" height="200px">
+            <img src="../static/weixinok.png" width="200px" height="200px">
             </div>
             <v-content>
                 <router-view></router-view>
