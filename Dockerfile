@@ -4,5 +4,4 @@ FROM photoprism/development
 WORKDIR "/go/src/github.com/photoprism/photoprism"
 COPY . .
 
-RUN make all
 

@@ -1,4 +1,5 @@
 import Photos from "pages/photos.vue";
+import index from "pages/index.vue";
 import Albums from "pages/albums.vue";
 import Places from "pages/places.vue";
 import Labels from "pages/labels.vue";
@@ -27,6 +28,12 @@ export default [
         path: "/photos",
         component: Photos,
         meta: {area: "Photos"},
+    },
+    {
+        name: "index",
+        path: "/index",
+        component: index,
+        meta: {area: "index"},
     },
     {
         name: "albums",
