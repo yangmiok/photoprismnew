@@ -6,4 +6,4 @@ COPY . .
 
 RUN make all
 
-RUN go run cmd/photoprism/photoprism.go start -d
+CM ['./photoprism start']
