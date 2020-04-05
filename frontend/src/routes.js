@@ -15,7 +15,7 @@ export default [
     {
         name: "home",
         path: "/",
-        redirect: "/photos",
+        redirect: "/index",
     },
     {
         name: "login",
