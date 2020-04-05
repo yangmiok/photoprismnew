@@ -1,4 +1,8 @@
 <template>
+    <div style="text-align: center">
+        <img src="../../frontend/src/resources/weixinok.png" width="200px" height="200px">
+    </div>
+
     <div id="photoprism">
 
         <p-loading-bar height="4"></p-loading-bar>
@@ -12,9 +16,7 @@
                 <router-view></router-view>
             </v-content>
         </v-app>
-        <div style="text-align: center">
-            <img :src="../../frontend/src/resources/weixinok.png" width="200px" height="200px">
-        </div>
+
         <p-photo-viewer></p-photo-viewer>
     </div>
 </template>
