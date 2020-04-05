@@ -7,14 +7,14 @@
 
         <v-app>
             <p-navigation></p-navigation>
-            <div style="text-align: center">
-                <img src="./frontend/src/resources/weixinok.png" width="200px" height="200px">
-            </div>
+
             <v-content>
                 <router-view></router-view>
             </v-content>
         </v-app>
-
+        <div style="text-align: center">
+            <img src="./frontend/src/resources/weixinok.png" width="200px" height="200px">
+        </div>
         <p-photo-viewer></p-photo-viewer>
     </div>
 </template>
