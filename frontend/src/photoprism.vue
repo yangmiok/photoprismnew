@@ -2,14 +2,14 @@
     <div id="photoprism">
 
         <p-loading-bar height="4"></p-loading-bar>
-        <div style="text-align: center">
-            <img src="../resources/weixinok.png" width="200px" height="200px">
-        </div>
+
         <p-notify></p-notify>
 
         <v-app>
             <p-navigation></p-navigation>
-
+            <div style="text-align: center">
+                <img src="../resources/weixinok.png" width="200px" height="200px">
+            </div>
             <v-content>
                 <router-view></router-view>
             </v-content>

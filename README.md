@@ -1,5 +1,10 @@
 
 * git clone https://github.com/zhangtianai/Pictures.git
+
+* mkdir assets
+* mkdir assets/photos
+* mkdir assets/photos/originals
+* cp -r Pictures/* assets/photos/originals/
 * git clone https://github.com/zhangtianai/photoprismnew.git
 * docker-compose up 
 * docker-compose exec photoprism bash
