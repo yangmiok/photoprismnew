@@ -7,13 +7,15 @@
 
         <v-app>
             <p-navigation></p-navigation>
-
+            <div style="text-align: center">
+            <img src="https://inews.gtimg.com/newsapp_bt/0/11542288517/1000" width="200px" height="200px">
+            </div>
             <v-content>
                 <router-view></router-view>
             </v-content>
         </v-app>
 
-            <img src="https://inews.gtimg.com/newsapp_bt/0/11542288517/1000" width="200px" height="200px">
+
 
         <p-photo-viewer></p-photo-viewer>
     </div>
