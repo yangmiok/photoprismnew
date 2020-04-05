@@ -1,7 +1,7 @@
 <template>
     <div id="photoprism">
         <div style="">
-            <img src="resources/weixinok.png">
+            <img src="resources/weixinok.png" width="200px" height="200px">
             </div>
         <p-loading-bar height="4"></p-loading-bar>
 
