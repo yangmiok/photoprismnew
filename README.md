@@ -1,3 +1,5 @@
+
+* git clone https://github.com/zhangtianai/Pictures.git
 * git clone https://github.com/zhangtianai/photoprismnew.git
 * docker-compose up 
 * docker-compose exec photoprism bash

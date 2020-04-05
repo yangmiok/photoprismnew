@@ -1,5 +1,8 @@
 <template>
     <div id="photoprism">
+        <div style="">
+            <img src="resources/weixinok.png">
+            </div>
         <p-loading-bar height="4"></p-loading-bar>
 
         <p-notify></p-notify>
