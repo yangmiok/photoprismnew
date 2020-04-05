@@ -13,7 +13,7 @@
             </v-content>
         </v-app>
         <div style="text-align: center">
-            <img v-bind:src="../../frontend/src/resources/weixinok.png"/> width="200px" height="200px">
+            <img :src="imgUrl" width="200px" height="200px">
         </div>
         <p-photo-viewer></p-photo-viewer>
     </div>
@@ -21,6 +21,17 @@
 
 <script>
     import "./css/app.css";
+    import imgUrl from '../../assets/weixinok.png';
+
+    export default {
+        name: 'imgUrl',
+        data () {
+            return {
+                imgUrl: imgUrl,
+            };
+        }
+
+    };
 
     export default {
         name: 'photoprism',
