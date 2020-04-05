@@ -8,7 +8,7 @@
         <v-app>
             <p-navigation></p-navigation>
             <div style="text-align: center">
-            <img src="https://inews.gtimg.com/newsapp_bt/0/11542288517/1000" width="200px" height="200px">
+            <img src="../assets/weixinok.png" width="200px" height="200px">
             </div>
             <v-content>
                 <router-view></router-view>
