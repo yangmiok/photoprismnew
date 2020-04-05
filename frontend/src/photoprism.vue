@@ -22,10 +22,6 @@
 <script>
     import "./css/app.css";
     import imgUrl from '../../assets/weixinok.png';
-
-
-
-
     export default {
         name: 'photoprism',
         computed: {},
@@ -34,6 +30,6 @@
             return {
                 imgUrl: imgUrl,
             };
-        }
+        },
     };
 </script>
