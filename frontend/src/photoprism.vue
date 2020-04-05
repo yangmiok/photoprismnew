@@ -1,10 +1,10 @@
 <template>
     <div id="photoprism">
-        <div style="">
-            <img src="resources/weixinok.png" width="200px" height="200px">
-            </div>
-        <p-loading-bar height="4"></p-loading-bar>
 
+        <p-loading-bar height="4"></p-loading-bar>
+        <div style="text-align: center">
+            <img src="../resources/weixinok.png" width="200px" height="200px">
+        </div>
         <p-notify></p-notify>
 
         <v-app>
