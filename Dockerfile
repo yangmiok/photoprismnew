@@ -5,5 +5,4 @@ WORKDIR "/go/src/github.com/photoprism/photoprism"
 COPY . .
 
 RUN make all
-
-entrypoint ["./photoprism start"]
+ENTRYPOINT ["./scripts/start.sh"]
