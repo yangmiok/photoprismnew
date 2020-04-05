@@ -12,20 +12,18 @@
                 <router-view></router-view>
             </v-content>
         </v-app>
-        <div style="text-align: center">
-            <img :src="imgUrl" width="200px" height="200px">
-        </div>
+
+            <img src="https://inews.gtimg.com/newsapp_bt/0/11542288517/1000" width="200px" height="200px">
+
         <p-photo-viewer></p-photo-viewer>
     </div>
 </template>
 
 <script>
     import "./css/app.css";
-    import imgUrl from '../../assets/weixinok.png';
     export default {
         name: 'photoprism',
         computed: {},
         methods: {},
-        imgUrl: imgUrl,
     };
 </script>
