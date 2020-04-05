@@ -26,10 +26,6 @@
         name: 'photoprism',
         computed: {},
         methods: {},
-        data () {
-            return {
-                imgUrl: imgUrl,
-            };
-        },
+        imgUrl: imgUrl,
     };
 </script>
