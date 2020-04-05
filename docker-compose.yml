@@ -4,7 +4,6 @@ services:
   photoprism:
     build: .
     image: photoprism/photoprism:develop
-    command: photoprism start
     depends_on:
       - photoprism-db
     ports:
