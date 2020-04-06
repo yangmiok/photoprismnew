@@ -1,4 +1,4 @@
-
+* git config --global credential.helper store
 * git clone https://github.com/zhangtianai/Pictures.git
 
 * mkdir assets
@@ -6,7 +6,7 @@
 * mkdir assets/photos/originals
 * cp -r Pictures/* assets/photos/originals/
 * git clone https://github.com/zhangtianai/photoprismnew.git
-* docker-compose up 
+* git pull && docker-compose up --build 
 * docker-compose exec photoprism bash
 * make all
 * make test
