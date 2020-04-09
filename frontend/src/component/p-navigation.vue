@@ -78,7 +78,7 @@
                     </v-list-tile-action>
 
                     <v-list-tile-content>
-                        <v-list-tile-title v-translate>Albums</v-list-tile-title>
+                        <v-list-tile-title v-translate>分类</v-list-tile-title>
                     </v-list-tile-content>
                 </v-list-tile>
 
@@ -96,7 +96,7 @@
                     </v-list-tile>
                 </v-list-group>
 
-                <v-list-tile to="/favorites" @click="" class="p-navigation-favorites">
+                <v-list-tile to="/favorites" @click="" class="p-navigation-favorites" v-if="session.auth || isPublic" >
                     <v-list-tile-action>
                         <v-icon>favorite</v-icon>
                     </v-list-tile-action>
@@ -106,7 +106,7 @@
                     </v-list-tile-content>
                 </v-list-tile>
 
-                <v-list-tile to="/places" @click="" class="p-navigation-places">
+                <v-list-tile to="/places" @click="" class="p-navigation-places" v-if="session.auth || isPublic">
                     <v-list-tile-action>
                         <v-icon>place</v-icon>
                     </v-list-tile-action>
@@ -116,7 +116,7 @@
                     </v-list-tile-content>
                 </v-list-tile>
 
-                <v-list-tile to="/labels" @click="" class="p-navigation-labels">
+                <v-list-tile to="/labels" @click="" class="p-navigation-labels" v-if="session.auth || isPublic">
                     <v-list-tile-action>
                         <v-icon>label</v-icon>
                     </v-list-tile-action>
