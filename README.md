@@ -1,6 +1,6 @@
 * git config --global credential.helper store
 * git clone https://github.com/zhangtianai/Pictures.git
-
+* git clone https://github.com/zhangtianai/assets
 * mkdir assets && mkdir assets/photos && mkdir assets/photos/originals
 * cp -r Pictures/* /root/photoprismnew/assets/photos/originals/
 * git clone https://github.com/zhangtianai/photoprismnew.git
