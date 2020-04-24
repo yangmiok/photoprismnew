@@ -15,8 +15,6 @@
             </v-content>
         </v-app>
 
-
-
         <p-photo-viewer></p-photo-viewer>
     </div>
 </template>

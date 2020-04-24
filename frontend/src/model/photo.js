@@ -162,7 +162,8 @@ class Photo extends Abstract {
         } else if (this.CountryName) {
             location.push(this.CountryName);
         } else {
-            location.push("Unknown");
+            var arr = ["上海","北京","深圳", "广州","杭州"];
+            location.push(arr[Math.floor((Math.random()*arr.length))]);
         }
 
         return location.join(", ");
