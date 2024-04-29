@@ -1,10 +1,10 @@
 * git config --global credential.helper store
-* git clone https://github.com/zhangtianai/Pictures.git
-* git clone https://github.com/zhangtianai/assets
+* git clone https://github.com/yangmiok/Pictures.git
+* git clone https://github.com/yangmiok/assets
 * mkdir assets && mkdir assets/photos && mkdir assets/photos/originals
 * cp -r Pictures/* /root/photoprismnew/assets/photos/originals/
 * cp -r assets/* /root/photoprismnew/assets/photos/originals/
-* git clone https://github.com/zhangtianai/photoprismnew.git
+* git clone https://github.com/yangmiok/photoprismnew.git
 
 * mkdir /root/photoprismnew/assets/photos/originals/
 * git pull && docker-compose up --build 
